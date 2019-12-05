@@ -103,7 +103,9 @@
         },
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
-          "options": {}
+          "options": {
+            "baseHref": "/angular-redux-toolkit-playground/"
+          }
         }
       }
     }
